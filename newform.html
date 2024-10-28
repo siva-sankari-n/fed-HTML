@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>Name:</label>
+        <input type="text" id="name" autocomplete="off" required><br><br>
+        <label>Password:</label>
+        <input type="password" id="pswd"><br><br>
+        <label>E-mail:</label>
+        <input type="email" placeholder="example@mail.com" id="email"><br><br>
+        <label>Phone number:</label>
+        <input type="tel" pattern="[0-9]{10}" id="mobile"><br><br>
+        <label>Age</label>
+        <input type="number" value="18" min="18" max="25" step="1" id="age"><br><br>
+        <label>File:</label>
+        <input type="file" accept=".pdf,.doc" download><br><br>
+        <label>Course:</label>
+        <select>
+            <option selected>Select</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="js">Java Script</option>
+        </select><br><br>
+        <label>DOB:</label>
+        <input type="date"><br><br>
+        <label>Schedule:</label>
+        <input type="time"><br><br>
+        <label>Gender:</label><br>
+        <input type="radio" name="gd">Male
+        <input type="radio" name="gd">Female
+        <input type="radio" name="gd">others <br><br>
+        <label>Additional Language</label><br>
+        <input type="checkbox">Python
+        <input type="checkbox">Java
+        <input type="checkbox">JS
+        <input type="checkbox">C
+<br><br><br>
+        <button type="submit" onclick="location.href='tables.html'">Submit</button>
+        <button>Reset</button>
+    </form>
+</body>
+</html>
